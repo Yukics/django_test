@@ -1,4 +1,6 @@
 from django.db import models
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 import uuid # Requerida para las instancias de libros únicos
 # Create your models here.
 
